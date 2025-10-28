@@ -1,13 +1,20 @@
-import './Home.css'
+import React from "react";
+// import NavBar from "../components/NavBar";
+import HeroSection from "../components/HeroSection";
+import ProductCards from "../components/ProductCards"; // ✅ import your product section
 
-function Home () {
-
+const Home = () => {
   return (
     <div>
-        <h1 class="text-center"> Anjali is AIR(All India Radio) </h1>
-    </div>
-  )
-  
-}
+      {/* Nav Bar */}
+      {/* <NavBar />   */}
+      {/* Hero Section */}
+      <HeroSection />
 
-export default Home
+      {/* Product Section (below Hero) */}
+      <ProductCards />
+    </div>
+  );
+};
+
+export default Home;

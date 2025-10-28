@@ -1,0 +1,119 @@
+body{
+    display: block;
+    margin: 0%;
+    overflow:auto;
+}
+
+
+.hero {
+  position:relative;
+  background-color: #000000;
+  color: white;
+  /* height: 900px;
+  width: 1550px; */
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  margin: 0px;
+  
+}
+
+/* Text Section */
+.hero-text {
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.hero-text em {
+  font-style: italic;
+}
+
+.highlight {
+  color: #f28b82;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  font-weight: 500;
+}
+
+/* Circular Images (Left & Right) */
+.hero-image {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero-image img {
+  
+  object-fit: cover;
+  opacity: 80%;
+}
+
+/* Left image placement */
+.hero-left {
+  width: 612px;
+  height: 408px;  
+  left: -220px;
+  bottom: 0;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px; 
+  /* border-bottom-right-radius: 400; */
+}
+
+/* Right image placement */
+.hero-right {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;  
+  top: 20px;
+  right: 0;
+  /* top: 0; */
+  transform: translateY(-10%);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-left {
+    left: -60px;
+  }
+
+  .hero-right {
+    right: -60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    display: none; /* hide decorative circles on small screens */
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .highlight {
+    font-size: 1.2rem;
+  }
+}
