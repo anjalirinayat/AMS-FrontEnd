@@ -1,0 +1,10 @@
+.highlight {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.6s ease-in-out;
+    color: #f28b82;
+    font-size: 3rem;
+    margin-top: 1.2rem;
+    font-weight: 700;
+    padding-right: 30%;
+}

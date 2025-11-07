@@ -24,25 +24,21 @@ body{
 
 /* Text Section */
 .hero-text {
-  z-index: 2;
-  max-width: 800px;
+   z-index: 2;
+   width: 70%;
+   padding-bottom: 35%;
+   padding-left: 5%;
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
-  font-weight: 600;
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 400;
   line-height: 1.5;
 }
 
 .hero-text em {
   font-style: italic;
-}
-
-.highlight {
-  color: #f28b82;
-  font-size: 1.8rem;
-  margin-top: 1.2rem;
-  font-weight: 500;
 }
 
 /* Circular Images (Left & Right) */
@@ -53,9 +49,8 @@ body{
 }
 
 .hero-image img {
-  
   object-fit: cover;
-  opacity: 80%;
+  opacity: 85%;
 }
 
 /* Left image placement */
@@ -63,7 +58,7 @@ body{
   width: 612px;
   height: 408px;  
   left: -220px;
-  bottom: 0;
+  bottom: 30%;
   border-top-left-radius: 300px;
   border-top-right-radius: 300px; 
   /* border-bottom-right-radius: 400; */

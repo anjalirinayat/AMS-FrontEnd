@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/HeroSection.css";
 import leftImg from "../assets/left-mutton.png";
 import rightImg from "../assets/right-mutton.png";
+import ToggleText from './ToggleText'
 
 const HeroSection = () => {
   return (
@@ -16,7 +17,7 @@ const HeroSection = () => {
         <h1>
           Fresh Cuts, Rich Taste –<br></br> <em>Mutton</em> at Its Best ....
         </h1>
-        <p className="highlight">Joy of fresh cuts,</p>
+        <ToggleText />
       </div>
 
       {/* Right decorative image */}
