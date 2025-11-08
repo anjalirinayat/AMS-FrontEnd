@@ -1,5 +1,6 @@
- 
-function AboutUs() 
+ import MainImage from "../assets/mainimage.png"
+ import Dadaji from  "../assets/dadaji.png"
+ function AboutUs() 
 {
     return (
 
@@ -7,19 +8,19 @@ function AboutUs()
       {/* Hero Section */}
       <section className="relative text-white bg-black">
         <div className="relative h-[80vh] flex flex-col items-center justify-center text-center px-6">
-          <div className="absolute inset-0">
+          <div className="absolute inset-0 flex justify-end">
             <img
-              src="/assets/mainimage.png" // Replace with your image path
+              src={MainImage} // Replace with your image path
               alt="Adarsh Mutton Shop"
-              className="w-full h-full object-cover opacity-40"
+              className="w-220 h-135 object-cover opacity-80 "
             />
           </div>
 
         {/* Text */}
-        <div className="relative z-10 flex flex-col items-start justify-center max-w-7xl w-full px-4 md:px-12">
-            <h2 className="text-3xl md:text-7xl leading-tight">OUR</h2>
-            <h2 className="text-3xl md:text-7xl leading-tight">LEGACY</h2>
-            <p className="text-xl md:text-4xl italic text-red-400 pt-3">Since 1972</p>
+        <div className="relative h-[50vh]  flex flex-col items-start max-w-6xl w-full font-light">
+            <h2 className="text-3xl md:text-8xl leading-tight"><em>OUR</em></h2>
+            <h2 className="text-3xl md:text-8xl leading-tight"><em>LEGACY</em></h2>
+            <h2 className="text-xl md:text-4xl italic text-[#EA8888] leading-tight">Since 1972</h2>
           </div>
         </div>
       </section>
@@ -27,14 +28,15 @@ function AboutUs()
       {/* Founder Section */}
       <section className="max-w-8xl mx-auto py-16 text-center px-4">
        
-        <div className="flex flex-col items-center">
-           <h3 className="text-2xl font-semibold mb-4">
+        <div className="flex flex-col items-center mt-50 ">
+           <h3 className="text-4xl font-regular mb-4 h-15">
           Mr. ASHOK UDARAMJI MADNE
         </h3>
+        <div class="w-150 h-[2px] bg-gradient-to-r from-transparent via-black to-transparent"></div>
           <img
-            src="/images/founder.jpg" // Replace with your founder image
+            src= {Dadaji} // Replace with your founder image
             alt="Founder"
-            className="w-48 h-48 object-cover rounded-lg border-4 border-gray-400 mb-6"
+            className="w-100 h-100 object-cover rounded-lg mb-6"
           />
           <p className="text-gray-700 leading-relaxed max-w-3xl">
             Established in 1972 in Nagpur, serving the city for over five decades. 
