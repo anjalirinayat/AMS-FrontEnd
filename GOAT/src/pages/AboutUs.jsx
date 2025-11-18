@@ -1,5 +1,6 @@
  import MainImage from "../assets/mainimage.png"
  import Dadaji from  "../assets/dadaji.png"
+ import '../styles/aboutus.css';
  function AboutUs() 
 {
     return (
@@ -25,18 +26,17 @@
         </div>
       </section>
 
+
       {/* Founder Section */}
-      <section className="max-w-8xl mx-auto py-16 text-center px-4">
-       
-        <div className="flex flex-col items-center mt-50 ">
-           <h3 className="text-4xl font-regular mb-4 h-15">
+        <div className="dadaji flex flex-col items-center">
+        <h3 className="text-4xl font-regular h-15">
           Mr. ASHOK UDARAMJI MADNE
         </h3>
-        <div class="w-150 h-[2px] bg-gradient-to-r from-transparent via-black to-transparent"></div>
+        <div className="w-150 h-[3px] bg-gradient-to-r from-transparent via-black to-transparent"></div>
           <img
             src= {Dadaji} // Replace with your founder image
             alt="Founder"
-            className="w-100 h-100 object-cover rounded-lg mb-6"
+            className="w-100 h-100 object-cover rounded-lg"
           />
           <p className="text-gray-700 leading-relaxed max-w-3xl">
             Established in 1972 in Nagpur, serving the city for over five decades. 
@@ -45,7 +45,6 @@
             and authentic taste. Committed to maintaining high standards and customer trust.
           </p>
         </div>
-      </section>
 
       {/* Owner Section */}
       <section className="bg-[#f6f3ef] py-16 px-4 text-center">
@@ -74,7 +73,7 @@
 
       {/* Map Section */}
       <section className="py-16 text-center">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 px-4">
+        <div className="max-w-5xl mx-auto fex flex-col md:flex-row items-center justify-center gap-8 px-4">
           <div className="w-full md:w-1/2 h-72">
             <iframe
               title="Location Map"
