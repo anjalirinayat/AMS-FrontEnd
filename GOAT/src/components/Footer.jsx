@@ -1,4 +1,4 @@
-import FooterLogo from '../assets/Logo-footer coloured.jpg'
+import FooterLogo from '../assets/Foooter - Logo.jpg'
 import '../styles/Footer.css'
 
 function Footer() {
@@ -83,7 +83,7 @@ function Footer() {
                             </div>
                             <div className='col-3 lg:w-[40%] md:w-[40%] text-center lg:text-xl'>
                                 <h3>Registered office address :</h3>
-                                <h3>Panwari ke peeche wali patli gali me hai tumhare sajan ki kothari</h3>
+                                <h3>Panwari ke peeche wali patli gali me hai tumhare sajan ki MUTTON SHOP</h3>
                             </div>
                         </div>
 
