@@ -203,7 +203,7 @@
 
 }
 
-@media (min-width: 642px) and (max-width: 767px){
+@media (min-width: 641px) and (max-width: 767px){
 
 .navbar-logo{
   height: 140px;
@@ -269,7 +269,7 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1240px){
+@media (min-width: 1023px) and (max-width: 1240px){
 
 .navbar-center{
   padding: 0;
@@ -282,6 +282,10 @@
   padding: 0;
   padding-left: 2%;
   gap: 5%;
+}
+
+.navbar-search{
+  width: 70%;
 }
 
 }
