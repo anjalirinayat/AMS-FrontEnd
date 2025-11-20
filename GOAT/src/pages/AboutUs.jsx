@@ -1,4 +1,4 @@
- import MainImage from "../assets/mainimage.png"
+ import MainImage from "../assets/AboutUsHero.png"
  import Dadaji from  "../assets/dadaji.png"
  import '../styles/aboutus.css';
  function AboutUs() 
@@ -13,10 +13,10 @@
             <img
               src={MainImage} // Replace with your image path
               alt="Adarsh Mutton Shop"
-              className="w-220 h-135 object-cover opacity-80 "
+              className="about-img w-220 h-135 object-cover opacity-80 sm:rounded-none md:rounded-l-full lg:rounded-l-full"
             />
           </div>
-
+                   
         {/* Text */}
         <div className="relative h-[50vh]  flex flex-col items-start max-w-6xl w-full font-light">
             <h2 className="text-3xl md:text-8xl leading-tight"><em>OUR</em></h2>

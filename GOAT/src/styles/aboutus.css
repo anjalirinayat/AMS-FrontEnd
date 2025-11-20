@@ -1,1 +1,10 @@
 .dadaji h3 { margin-top: 50px;}
+
+@media (max-width: 640px){
+
+.about-img{
+    height: 50%;
+   
+}
+    
+}
